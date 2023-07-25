@@ -1,0 +1,4 @@
+[debug] [cybertools-test] Classpath dependencies List()
+[debug] [cybertools-test] Dependencies from configurations List(cybertools)
+[debug] Bloop wrote the configuration of project 'cybertools-test' to '/home/svn/Documents/CyberTools/.bloop/cybertools-test.json'
+[success] Generated .bloop/cybertools-test.json

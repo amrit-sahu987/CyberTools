@@ -1,0 +1,166 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "cybertools",
+        "directory": "/home/svn/Documents/CyberTools",
+        "workspaceDir": "/home/svn/Documents/CyberTools",
+        "sources": [
+            "/home/svn/Documents/CyberTools/src/main/scala",
+            "/home/svn/Documents/CyberTools/src/main/scala-2.12",
+            "/home/svn/Documents/CyberTools/src/main/scala-2",
+            "/home/svn/Documents/CyberTools/src/main/java",
+            "/home/svn/Documents/CyberTools/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/svn/.sbt/boot/scala-2.12.18/lib/scala-library.jar"
+        ],
+        "out": "/home/svn/Documents/CyberTools/.bloop/cybertools",
+        "classesDir": "/home/svn/Documents/CyberTools/.bloop/cybertools/scala-2.12/classes",
+        "resources": [
+            "/home/svn/Documents/CyberTools/src/main/resources",
+            "/home/svn/Documents/CyberTools/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.18",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/svn/.sbt/boot/scala-2.12.18/lib/scala-library.jar",
+                "/home/svn/.sbt/boot/scala-2.12.18/lib/scala-compiler.jar",
+                "/home/svn/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar",
+                "/home/svn/.sbt/boot/scala-2.12.18/lib/scala-xml_2.12-2.1.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/svn/.jabba/jdk/openjdk@1.17.0",
+                "options": [
+                    "-Duser.dir=/home/svn/Documents/CyberTools"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/svn/.sbt/boot/scala-2.12.18/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/svn/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.18/scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/svn/.sbt/boot/scala-2.12.18/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/svn/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.18/scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
