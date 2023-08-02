@@ -11,5 +11,6 @@ lazy val root = project
     
     libraryDependencies ++= Seq (
       "org.scalameta" %% "munit" % "0.7.29" % Test,
+      "org.pcap4j" % "pcap4j-core" % "1.8.1"
     )
   )
