@@ -1,5 +1,7 @@
 import hash_cracker.Cracker
 import packet_analyzer.Analyzer
+import password_strength_tester.PasswordStrengthTester
+import hash_function.HashFunction
 
 @main def hello: Unit =
   println("Hello world!")
@@ -9,5 +11,6 @@ import packet_analyzer.Analyzer
   // Analyzer require super user permissions to run
   // val analyzer = Analyzer()
   // analyzer.capture()
+
 
 def msg = "I was compiled by Scala 3. :)"
